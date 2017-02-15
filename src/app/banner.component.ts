@@ -2,7 +2,8 @@ import {Component} from '@angular/core';
 
 @Component({
     selector: 'app-banner',
-    template: '<h1>{{ title }}</h1>'
+    templateUrl: './banner.component.html',
+    styleUrls: ['./banner.component.css']
 })
 export class BannerComponent {
 
